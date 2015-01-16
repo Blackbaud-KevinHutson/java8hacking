@@ -1,0 +1,28 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# intellij files #
+*.iml
+
+# generated log files from drop wizard #
+*.log
+
+#directories
+.idea/*
+target/*
+logs/*
+
+!gradle/wrapper/gradle-wrapper.jar
+
+
+.gradle
+build
+
+log
+
+# dev properties override (assumes a shell var named $SPRING_PROFILES_ACTIVE=dev)
+application-dev.properties
