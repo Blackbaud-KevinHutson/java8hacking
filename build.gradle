@@ -21,11 +21,11 @@ buildscript {
     }
 }
 
-//this plugin doesnt seem to work with java8
-//apply plugin: "blackbaud-internal"
+// override blackbaud-internal setting for java 1.8
+project.ext.defaultJavaVersion=1.8
 
-//normally contained by blackbaud-internal (I think)
-apply plugin: 'idea'
+//this plugin doesnt seem to work with java8
+apply plugin: "blackbaud-internal"
 
 /**
  * This defines all of the repositories that will be used to download the dependencies.
