@@ -22,7 +22,7 @@ buildscript {
 }
 
 //this plugin doesnt seem to work with java8
-apply plugin: "blackbaud-internal"
+//apply plugin: "blackbaud-internal"
 
 //normally contained by blackbaud-internal (I think)
 apply plugin: 'idea'
